@@ -4,21 +4,21 @@ public static class ClipboardFusionHelper
 {
 	public static string ProcessText(string text)
 	{
-			 return text.Replace(" ", "-")	//space
+			 return text.Replace(" ", "-")					//space
 						.Replace(":","-")			//colon
 						.Replace(";","-")			//semi-colon
-						.Replace("&","-")   	//Ampersand
-						.Replace("%","-")   	//Percent
+						.Replace("&","-")   			//Ampersand
+						.Replace("%","-")   			//Percent
 						.Replace("?","-")			//QuestionMark
-						.Replace("—","-")			//Em dash
-						.Replace("–","-")			//En dash (kindof redundant)
-						.Replace("“","-")			//Smart Quote
-						.Replace("”","-")			//Smart Quote
-						.Replace("’","-")			//Typographic apostrophe
+						.Replace("ï¿½","-")			//Em dash
+						.Replace("ï¿½","-")			//En dash (kindof redundant)
+						.Replace("ï¿½","-")			//Smart Quote
+						.Replace("ï¿½","-")			//Smart Quote
+						.Replace("ï¿½","-")			//Typographic apostrophe
 						.Replace("[","-")			//Left Bracket
 						.Replace("]","-")			//Right Bracket
-						.Replace("®","-")			//Registered TradeMark
+						.Replace("ï¿½","-")			//Registered TradeMark
 						.Replace("*","-")			//star
-						.Replace("#","-");		//number sign / pound / hash / Octothorp
+						.Replace("#","-");			//number sign / pound / hash / Octothorp
 	}
 }
