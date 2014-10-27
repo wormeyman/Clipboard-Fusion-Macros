@@ -4,7 +4,7 @@ public static class ClipboardFusionHelper
 {
     public static string ProcessText(string text)
     {
-             return text.Replace(" ", "-")    //space
+             return text.Replace(" ","-")     //space
                         .Replace(":","-")     //colon
                         .Replace(";","-")     //semi-colon
                         .Replace("&","-")     //Ampersand
