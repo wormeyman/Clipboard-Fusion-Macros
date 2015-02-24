@@ -4,7 +4,7 @@ public static class ClipboardFusionHelper
 {
     public static string ProcessText(string text)
     {
- return text.Replace("•", "&bull;")                     //Bullet
+             return text.Replace("•", "&bull;")         //Bullet
                         .Replace("“","\"")              //Smart Quote
                         .Replace("”","\"")              //Smart Quote
                         .Replace("’","'")               //Smart Quote
