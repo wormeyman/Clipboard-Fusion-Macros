@@ -7,6 +7,8 @@ public static class ClipboardFusionHelper
              return text.Replace(" ","-")     //space
                         .Replace(":","-")     //colon
                         .Replace(";","-")     //semi-colon
+                        .Replace("\\","-")    //Backslash
+                        .Replace("/","-")     //Slash
                         .Replace("&","-")     //Ampersand
                         .Replace("%","-")     //Percent
                         .Replace("?","-")     //QuestionMark
